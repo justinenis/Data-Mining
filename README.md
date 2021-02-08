@@ -1,4 +1,4 @@
-# HW 1
+# Question 1
 
 
 
@@ -19,16 +19,16 @@ competition in sight results in higher gas prices. The median price of gas stati
 
 # Question 2
 
-# Plot A
+## Plot A
 
 This line graph displays the change in average ridership throughout the day. The time of day lays on the x-axis, and the ridership totals lies on the y-axis. The graph shows that the busiest time of day for ridership is during peak rush hour.
 
-# Plot B
+## Plot B
 
 This line faceted line graph was made to help determine the differences in ridership between workdays, which have a value of 1, and non-workdays, which have a value of 0. Upon observing either graph, its easy to understand that the highest peaks of ridership occurs during a workday, and at rushhour times. Non-workdays have a peak during mid-afternoons.
 
 
-# Plot C
+## Plot C
 
 In addition to this faceted bar graph breaking down between non-workdays and
 workdays, differences of average ridership can also observed in reference to
