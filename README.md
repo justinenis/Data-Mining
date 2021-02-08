@@ -1,4 +1,7 @@
 # HW 1
+
+
+
 1A. In this boxplot, we are assessing whether the lack of direct competition in
 sight results in higher gas prices. The boxplot is separated into two categories, yes or no, on whether a competitor is within sight of the observed gas station. I also added color to better differentiate between both categories.
 When interpreting the boxplot, it becomes clear that the lack of direct
@@ -26,3 +29,28 @@ This line faceted line graph was made to help determine the differences in rider
 
 
 # Plot C
+
+In addition to this faceted bar graph breaking down between non-workdays and
+workdays, differences of average ridership can also observed in reference to
+weather conditions. At first glace, its very clear that average ridership is
+much higher during a workday. In all cases, ridership decreases as the weather
+worsens.
+
+
+# Question 3
+
+I chose 4 airlines to observe and compare throughout the week. AA (American
+Airlines), CO (Continental Airlines), UA (United Airlines), and WN (Southwest
+Airlines). WN has the most flights at ARIA, while UA has, by far, the lowest
+number of flights. All airlines have a dip in traffic on Saturdays, before
+increasing again for Sunday. This makes intuitive sense because people tend to
+fly someplace for the weekend, and return on Sunday for work on Monday.
+
+
+I then decided to create a bar graph to display the percentages of canceled
+flights each day of the week for the the 4 airlines listed. One conclusion made is that although WN has the most flights out of ABIA, AA has the highest
+percentages of cancelled flights on nearly every day of the week, with Tuesday
+being the worst day to fly on AA, but the best day to fly UA.
+
+
+# Question 4
