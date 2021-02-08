@@ -1,6 +1,7 @@
 # Question 1
 
-
+ggplot(data=gas_prices) +
+  geom_boxplot(aes(x=Competitors, y=Price, fill = Competitors))
 
 1A. In this boxplot, we are assessing whether the lack of direct competition in
 sight results in higher gas prices. The boxplot is separated into two categories, yes or no, on whether a competitor is within sight of the observed gas station. I also added color to better differentiate between both categories.
@@ -32,7 +33,7 @@ This line faceted line graph was made to help determine the differences in rider
 
 In addition to this faceted bar graph breaking down between non-workdays and
 workdays, differences of average ridership can also observed in reference to
-weather conditions. At first glace, its very clear that average ridership is
+weather conditions. At first glance, its very clear that average ridership is
 much higher during a workday. In all cases, ridership decreases as the weather
 worsens.
 
@@ -54,3 +55,6 @@ being the worst day to fly on AA, but the best day to fly UA.
 
 
 # Question 4
+
+I believe that the trim 63 AMG has a higher optimal value of k because theres
+a larger concentration of cars valued much higher with mileage close to zero, whereas the 350 trim is much more spread out.
