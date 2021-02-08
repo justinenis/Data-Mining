@@ -1,1 +1,2 @@
-# Data-Mining
+# HW 1
+1. 
