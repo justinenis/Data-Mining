@@ -1,9 +1,9 @@
 # Question 1
 
 ```{r, fig.width=4, fig.asp = 0.6, fig.align='center', echo=FALSE, message=FALSE}
-ggplot(data=gas_prices) +
+g1 = ggplot(data=gas_prices) +
   geom_boxplot(aes(x=Competitors, y=Price, fill = Competitors))
-
+g1 
 ```
 
 
