@@ -37,14 +37,26 @@ library(modelr)
 library(parallel)
 library(foreach)
 
+
+```{r}
+g1 = ggplot(data=gas_prices) +
+  geom_boxplot(aes(x=Competitors, y=Price, fill = Competitors))
+  
+g1
+```
+
+
 gas_prices = read.csv('/Users/franklinstudent/Desktop/GitHub/ECO395M/data/GasPrices.csv')
 
 #1A
+
+
+
 ggplot(data=gas_prices) +
   geom_boxplot(aes(x=Competitors, y=Price, fill = Competitors))
 
 # In this boxplot, we are assesing whether the lack of direct competition in 
-# sight results in higher gas prices. The boxplot is separated into two categories, 
+# sight results in higher gas prices. The boxplot is separated into twocategories,
 # yes or no, on whether a competitor is within sight of the observed gas station.
 # I also added color to better differentiate between both categories.
 # When interpreting the boxplot, it becomes clear that the lack of direct 
