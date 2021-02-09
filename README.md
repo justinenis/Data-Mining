@@ -6,14 +6,12 @@ g1 = ggplot(data=gas_prices) +
 g1
 ```
 
-```{r, echo=FALSE, message=FALSE, include=FALSE}
-ggplot(data=gas_prices) +
-  geom_boxplot(aes(x=Competitors, y=Price, fill = Competitors))
-
+```{r}
+Rplot02.png
 }
 ```
 
-Rplot02.png
+
 
 1A. In this boxplot, we are assessing whether the lack of direct competition in
 sight results in higher gas prices. The boxplot is separated into two categories, yes or no, on whether a competitor is within sight of the observed gas station. I also added color to better differentiate between both categories.
