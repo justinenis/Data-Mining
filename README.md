@@ -13,7 +13,7 @@ ggplot(data=gas_prices) +
 }
 ```
 
-
+Rplot02.png
 
 1A. In this boxplot, we are assessing whether the lack of direct competition in
 sight results in higher gas prices. The boxplot is separated into two categories, yes or no, on whether a competitor is within sight of the observed gas station. I also added color to better differentiate between both categories.
