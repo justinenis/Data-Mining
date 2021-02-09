@@ -1,5 +1,11 @@
 # Question 1
-rmarkdown::"HW1.Rmd", md_document(variant = "markdown_github")
+
+```{r, fig.width=4, fig.asp = 0.6, fig.align='center', echo=FALSE, message=FALSE}
+ggplot(data=gas_prices) +
+  geom_boxplot(aes(x=Competitors, y=Price, fill = Competitors))
+
+```
+
 
 1A. In this boxplot, we are assessing whether the lack of direct competition in
 sight results in higher gas prices. The boxplot is separated into two categories, yes or no, on whether a competitor is within sight of the observed gas station. I also added color to better differentiate between both categories.
