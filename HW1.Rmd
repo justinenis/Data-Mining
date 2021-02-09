@@ -21,15 +21,15 @@ gas_prices = read.csv('/Users/franklinstudent/Desktop/GitHub/ECO395M/data/GasPri
 
 
 
-ggplot(data=gas_prices) +
+fig1 <- ggplot(data=gas_prices) +
   geom_boxplot(aes(x=Competitors, y=Price, fill = Competitors))
   
   
 
-```{r}
 
+```{r, out.width = "250px", fig.align='center', echo=FALSE}
+knitr::include_graphics("fig/ERCOTOperator_2.jpg")
 ```
-
 
 
 
