@@ -1,6 +1,5 @@
 # Question 1
-
-<img id="img" width="100%" height="100%" style="display: inline;" src="http://127.0.0.1:47913/graphics/ed81d159-e9cd-4070-b75c-a94cfd9440b4.png">
+rmarkdown::"HW1.Rmd", md_document(variant = "markdown_github")
 
 1A. In this boxplot, we are assessing whether the lack of direct competition in
 sight results in higher gas prices. The boxplot is separated into two categories, yes or no, on whether a competitor is within sight of the observed gas station. I also added color to better differentiate between both categories.
@@ -25,7 +24,7 @@ This line graph displays the change in average ridership throughout the day. The
 
 ## Plot B
 
-This line faceted line graph was made to help determine the differences in ridership between workdays, which have a value of 1, and non-workdays, which have a value of 0. Upon observing either graph, its easy to understand that the highest peaks of ridership occurs during a workday, and at rushhour times. Non-workdays have a peak during mid-afternoons.
+This line faceted line graph was made to help determine the differences in ridership between workdays, which have a value of 1, and non-workdays, which have a value of 0. Observing either graph, its easy to understand that the highest peaks of ridership occurs during a work day, and during rush hour times. Non-workdays have a peak during mid-afternoons.
 
 
 ## Plot C
