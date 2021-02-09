@@ -3,8 +3,16 @@
 ```{r, fig.width=4, fig.asp = 0.6, fig.align='center', echo=FALSE, message=FALSE}
 g1 = ggplot(data=gas_prices) +
   geom_boxplot(aes(x=Competitors, y=Price, fill = Competitors))
-g1 
+g1
 ```
+
+```{r, echo=FALSE, message=FALSE, include=FALSE}
+ggplot(data=gas_prices) +
+  geom_boxplot(aes(x=Competitors, y=Price, fill = Competitors))
+
+}
+```
+
 
 
 1A. In this boxplot, we are assessing whether the lack of direct competition in
