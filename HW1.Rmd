@@ -339,4 +339,3 @@ p_test63 + geom_line(aes(x = mileage, y = Price_pred), color = 'red', size = 1.5
 
 
 I believe that the 63 AMG trim has a higher optimal value of k because there is a larger concentration of cars valued much higher with mileage close to zero, whereas the 350 trim is much more spread out. 
-
